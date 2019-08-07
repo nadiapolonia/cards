@@ -39,8 +39,14 @@ const createDeckShuffle = () => {
 };
 const deal = () => {
   document.querySelector(".card").textContent = deck.pop();
-  console.log(deck.length);
+  console.log("Player One pulled card!", deck.length);
+};
+
+const deal2 = () => {
+  document.querySelector(".card-2").textContent = deck.pop();
+  console.log("Player Two pulled card!", deck.length);
 };
 
 document.querySelector(".pull-card").addEventListener("click", deal);
+document.querySelector(".pull-card-2").addEventListener("click", deal2);
 document.addEventListener("DOMContentLoaded", createDeckShuffle);
