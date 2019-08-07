@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>52 cards</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <h1>Playing Cards Generator</h1>
+    <img
+      src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2017/04/playing-cards-aces.png"
+    />
+    <p>Pull from the top of a 52-card deck.</p>
+
+    <section>
+      <div>
+        <h2>Player One</h2>
+        <p class="card">[Card]</p>
+        <button class="pull-card">Pull a card</button>
+      </div>
+      <div>
+        <h2>Player Two</h2>
+        <p class>[Card]</p>
+        <button>Pull a card</button>
+      </div>
+    </section>
+    <button class="hide reset">Reset</button>
+
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
