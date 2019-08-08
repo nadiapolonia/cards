@@ -48,5 +48,5 @@ const deal2 = () => {
 };
 
 document.querySelector(".pull-card").addEventListener("click", deal);
-document.querySelector(".pull-card-2").addEventListener("click", deal2);
+document.querySelector(".pull-card").addEventListener("click", deal2);
 document.addEventListener("DOMContentLoaded", createDeckShuffle);
